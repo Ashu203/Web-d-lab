@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.column {
+    box-sizing: border-box;
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ .par1 {
+  background-color: red;
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.par2{
+  background-color: blue;
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+</style>
+</head>
+<body>
+
+<h2 style="color: mediumvioletred;"> Padding Properties</h2>
+
+<div class="par1">This div element has a top padding of 60px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+<div class="par2">This div element has a top padding of 60px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+<div class="row">
+    <div class="column par1" >This div element has a top padding of 60px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+    <div class="column par2">This div element has a top padding of 60px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+</div>
+
+</body>
+</html>
